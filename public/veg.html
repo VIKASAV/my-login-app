@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veg Pickles</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff8e1; /* Light yellow background */
+        }
+        header {
+            background: #8bc34a; /* Pickles theme color (green) */
+            color: #fff;
+            padding: 15px 30px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .back-btn {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            background: #007bff; /* Blue for Back button */
+            color: #fff;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+        .back-btn:hover {
+            background: #0056b3; /* Darker blue on hover */
+        }
+        .pickle-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .pickle-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #fff;
+            margin: 10px;
+            padding: 10px;
+            width: 300px;
+            text-align: center;
+        }
+        .pickle-item img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .pickle-item h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .pickle-item p {
+            margin: 5px 0;
+            font-size: 1.2em;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Veg Pickles</h1>
+    </header>
+    <a href="/welcome.html" class="back-btn">Back to Welcome Page</a>
+    <div class="pickle-list">
+        <div class="pickle-item">
+            <img src="path/to/veg-pickle1.jpg" alt="Veg Pickle 1">
+            <h2>Sweet Pickle 1</h2>
+            <p>$10.99</p>
+        </div>
+        <div class="pickle-item">
+            <img src="path/to/veg-pickle2.jpg" alt="Veg Pickle 2">
+            <h2>Tangy Pickle 2</h2>
+            <p>$11.99</p>
+        </div>
+        <!-- Add more pickles here -->
+    </div>
+</body>
+</html>
